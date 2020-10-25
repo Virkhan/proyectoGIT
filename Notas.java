@@ -14,11 +14,15 @@ public class Notas {
          {
        System.out.println("Excelente");
          }
-       else if (nota>=6.5 && nota<9) 
+       else if (nota>=8 && nota<9) 
          {
        System.out.println("Notable");
          }    
-       else if (nota>=5 && nota<6.5) 
+       else if (nota>6 && nota<8) 
+         {
+       System.out.println("Bien");
+         }  
+       else if (nota>=5 && nota<=6) 
          {
        System.out.println("Aprobado");
          }   
